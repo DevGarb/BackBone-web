@@ -1,0 +1,10 @@
+.menuLink {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.menuLink:hover {
+  color: lightgray;
+  cursor: pointer;
+}

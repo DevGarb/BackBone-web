@@ -1,0 +1,25 @@
+{
+  "logoUrl": "https://i.pravatar.cc/150?img=1",
+  "devs": [
+    {
+      "id": "7ef4",
+      "name": "Fernando Herbster",
+      "dateOfBirth": "2024-02-28",
+      "tel": "+55 85 9910-1719",
+      "role": "Cliente Loja",
+      "radio": "PC Gamer",
+      "checkbox": true,
+      "profileUrl": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": "c53b",
+      "name": "Rosenberg Lima",
+      "dateOfBirth": "2024-02-28",
+      "tel": "85 9 81898242",
+      "role": "Cliente Loja",
+      "radio": "Computador",
+      "checkbox": true,
+      "profileUrl": "https://i.pravatar.cc/150?img=1"
+    }
+  ]
+}

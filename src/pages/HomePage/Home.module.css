@@ -1,0 +1,17 @@
+ .container {
+    margin: 1em;
+ }
+
+
+  .inputField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  

@@ -1,0 +1,44 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: #c7c7c7;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.inputField,
+.selectField,
+.checkboxContainer,
+.radioContainer,
+.submitButton {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputField input,
+.selectField select,
+.submitButton button {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkboxContainer,
+.radioContainer {
+    align-items: center;
+}
+
+.errorMsg {
+    color: red;
+    font-size: 14px;
+}
+
+.submitButton {
+    margin-top: 20px;
+}
