@@ -20,17 +20,6 @@
       "radio": "Computador",
       "checkbox": true,
       "profileUrl": "./src/assets/backbone.png"
-    },
-    {
-      "id": "143b",
-      "name": "Gabriel Porto",
-      "dateOfBirth": "1993-08-28",
-      "tel": "(85) 9-8530.2993",
-      "role": "Funcionário",
-      "radio": "PC Gamer",
-      "checkbox": true,
-      "obs": "",
-      "profileUrl": "./src/assets/backbone.png"
     }
   ]
 }
