@@ -1,5 +1,5 @@
 {
-  "logoUrl": "https://i.pravatar.cc/150?img=1",
+  "logoUrl": "./src/assets/backbone.png",
   "devs": [
     {
       "id": "7ef4",
@@ -9,7 +9,7 @@
       "role": "Cliente Loja",
       "radio": "PC Gamer",
       "checkbox": true,
-      "profileUrl": "https://i.pravatar.cc/150?img=1"
+      "profileUrl": "./src/assets/backbone.png"
     },
     {
       "id": "c53b",
@@ -19,7 +19,18 @@
       "role": "Cliente Loja",
       "radio": "Computador",
       "checkbox": true,
-      "profileUrl": "https://i.pravatar.cc/150?img=1"
+      "profileUrl": "./src/assets/backbone.png"
+    },
+    {
+      "id": "143b",
+      "name": "Gabriel Porto",
+      "dateOfBirth": "1993-08-28",
+      "tel": "(85) 9-8530.2993",
+      "role": "Funcionário",
+      "radio": "PC Gamer",
+      "checkbox": true,
+      "obs": "",
+      "profileUrl": "./src/assets/backbone.png"
     }
   ]
 }

@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { getLogoUrl } from "../../api/api";
 import { SlPeople } from "react-icons/sl";
 
+
 export const Navbar: React.FC<NavbarProps> = ({ title }) => {
   const [logoUrl, setLogoUrl] = useState("")
   
