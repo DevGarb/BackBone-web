@@ -88,6 +88,10 @@ export const DevDetailPage: React.FC = () => {
           />
           Pc Gamer
         </label>
+        {/* Observações */}
+        <div className={styles.inputField}>
+          <input type="text" placeholder="Nome ou Modelo" {...register("obs")} />
+        </div>
       </div>
       {errors.radio && (
         <span className={styles.errorMsg}>This field is required</span>
@@ -102,9 +106,9 @@ export const DevDetailPage: React.FC = () => {
       </div>
 
       {/* Observações */}
-        <div>
-          <input type="text" placeholder="Escreva observações" {...register("obs")} />
-        </div>
+      <div className={styles.inputField}>
+        <input type="text" placeholder="Escreva observações" {...register("obs")} />
+      </div>
 
 
       {/* Submit Button */}
