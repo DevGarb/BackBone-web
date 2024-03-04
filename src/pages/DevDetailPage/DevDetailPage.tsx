@@ -97,6 +97,12 @@ export const DevDetailPage: React.FC = () => {
         <span className={styles.errorMsg}>This field is required</span>
       )}
 
+
+      {/* Observações */}
+      <div className={styles.inputField}>
+        <input type="text" placeholder="Escreva observações" {...register("obs")} />
+      </div>
+
       {/* Checkbox */}
       <div className={styles.checkboxContainer}>
         <label>
@@ -104,12 +110,6 @@ export const DevDetailPage: React.FC = () => {
           <input type="checkbox" {...register("checkbox", { required: true })} />
         </label>
       </div>
-
-      {/* Observações */}
-      <div className={styles.inputField}>
-        <input type="text" placeholder="Escreva observações" {...register("obs")} />
-      </div>
-
 
       {/* Submit Button */}
       <div className={styles.submitButton}>
