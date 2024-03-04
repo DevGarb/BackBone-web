@@ -20,6 +20,17 @@
       "radio": "Computador",
       "checkbox": true,
       "profileUrl": "./src/assets/backbone.png"
+    },
+    {
+      "id": "0313",
+      "name": "Daniel costa",
+      "dateOfBirth": "2024-02-04",
+      "tel": "85 9 8899-5155",
+      "role": "Cliente Loja",
+      "radio": "Notebook",
+      "checkbox": true,
+      "obs": "Limpeza e Formatação - Fazer Backup",
+      "profileUrl": "./src/assets/backbone.png"
     }
   ]
 }

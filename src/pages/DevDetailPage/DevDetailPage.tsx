@@ -25,7 +25,7 @@ export const DevDetailPage: React.FC = () => {
   const navigate = useNavigate();
 
   const onSubmit: SubmitHandler<FormValues> = (data: FormValues) => {
-    createDev({ ...data, profileUrl: 'https://i.pravatar.cc/150?img=1' }).then(() => {
+    createDev({ ...data, profileUrl: './src/assets/backbone.png' }).then(() => {
       navigate(ROUTES.Home)
     })
   };

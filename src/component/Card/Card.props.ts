@@ -1,10 +1,10 @@
 export interface CardProps {
-  imageUrl: any;
+  imageUrl: string | undefined;
   title: string;
   subtitle?: string;
   checkbox: boolean;
   radio: string;
-  dateOfBirth: any;
+  dateOfBirth?: string;
   tel: number;
   obs: string;
 }

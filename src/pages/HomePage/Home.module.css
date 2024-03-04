@@ -1,5 +1,12 @@
  .container {
-    margin: 1em;
+  margin: 0;
+ }
+
+ .filterContainer {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
  }
 
 
@@ -7,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 450px;
     padding: 10px;
     margin-bottom: 5px;
     border: 1px solid #000000;

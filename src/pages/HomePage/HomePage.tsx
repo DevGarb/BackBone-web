@@ -21,10 +21,12 @@ export const HomePage = () => {
 
   return (
     <div className={style.container}>
-      <h4>Filtrar Clientes:</h4>
-      <input className={style.inputField}
-        onChange={(e) => setSearchTerm(e.target.value)}
-      />
+      <div className={style.filterContainer}>
+        <h4>Filtrar Clientes:</h4>
+        <input className={style.inputField}
+          onChange={(e) => setSearchTerm(e.target.value)} placeholder="Digite o nome do cliente..."
+        />
+      </div>
       {/* {theme} */}
       {/* <button onClick={() => toggleTheme()}>Trocar tema</button> */}
       <CardList>
