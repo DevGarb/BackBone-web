@@ -2,14 +2,15 @@ import { CardProps } from "./Card.props";
 
 import styles from "./Card.module.css";
 
-export const Card: React.FC<CardProps> = ({ imageUrl, 
-  title, 
-  subtitle, 
-  checkbox, 
-  radio, 
-  dateOfBirth, 
+export const Card: React.FC<CardProps> = ({ imageUrl,
+  title,
+  subtitle,
+  checkbox,
+  radio,
+  dateOfBirth,
   tel,
-  obs }) => {
+  obs,
+  mark }) => {
   return (
     <div className={styles.card}>
       <img
@@ -24,6 +25,7 @@ export const Card: React.FC<CardProps> = ({ imageUrl,
       <p>{radio}</p>
       <h5>{dateOfBirth}</h5>
       <h5>{tel}</h5>
+      <h5>{mark}</h5>
       <h5>{obs}</h5>
     </div>
   );

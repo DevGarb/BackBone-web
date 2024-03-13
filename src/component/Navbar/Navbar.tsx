@@ -16,7 +16,7 @@ export const Navbar: React.FC<NavbarProps> = ({ title }) => {
 
   return (
     <div className={styles.header}>
-    <img src='./src/assets/backbone.png' width="50px" height="50px" />
+    <img src={logoUrl} width="50px" height="50px" />
         <div className={styles.logo}>{title}</div>
       <div className={styles.navLinks}>
         <TextLink to={ROUTES.Home}>Início</TextLink>

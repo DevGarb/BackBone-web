@@ -41,6 +41,7 @@ export const HomePage = () => {
             dateOfBirth={dev.dateOfBirth}
             tel={dev.tel}
             obs={dev.obs}
+            mark={dev.mark}
           />
         ))}
       </CardList>

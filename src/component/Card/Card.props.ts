@@ -5,6 +5,7 @@ export interface CardProps {
   checkbox: boolean;
   radio: string;
   dateOfBirth?: string;
-  tel: number;
+  tel: string;
   obs: string;
+  mark: string;
 }

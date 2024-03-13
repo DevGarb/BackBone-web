@@ -31,6 +31,84 @@
       "checkbox": true,
       "obs": "Limpeza e Formatação - Fazer Backup",
       "profileUrl": "./src/assets/backbone.png"
+    },
+    {
+      "id": "5fab",
+      "name": "Ronaldo Rodrigues",
+      "dateOfBirth": "2024-02-05",
+      "tel": "85 9 8876-1386",
+      "role": "Cliente Loja",
+      "radio": "Computador",
+      "obs": "Pc liga normal, para de repente e reinicia e fica nesse loop. Até parar total",
+      "checkbox": true,
+      "profileUrl": "./src/assets/backbone.png"
+    },
+    {
+      "id": "fe14",
+      "name": "Ane Trajano",
+      "dateOfBirth": "2024-02-05",
+      "tel": "85 9 9665-0194",
+      "role": "Cliente Loja",
+      "radio": "Notebook",
+      "obs": "Formatação",
+      "checkbox": true,
+      "profileUrl": "./src/assets/backbone.png"
+    },
+    {
+      "id": "76f3",
+      "name": "Douglas Maciel",
+      "dateOfBirth": "2024-02-06",
+      "tel": "85 9 9958-2699",
+      "role": "Cliente Loja",
+      "radio": "Notebook",
+      "obs": "Pc energiza mas não liga.",
+      "checkbox": true,
+      "profileUrl": "./src/assets/backbone.png"
+    },
+    {
+      "id": "d323",
+      "name": "Matheus Rangel",
+      "dateOfBirth": "2024-03-07",
+      "tel": "85 9 9621-2926",
+      "role": "Cliente Loja",
+      "radio": "PC Gamer",
+      "obs": "Placa mãe morreu",
+      "checkbox": true,
+      "profileUrl": "./src/assets/backbone.png"
+    },
+    {
+      "id": "1b0b",
+      "name": "Roberio",
+      "dateOfBirth": "2024-03-07",
+      "tel": "85997351000",
+      "role": "Cliente Loja",
+      "radio": "Notebook",
+      "obs": "",
+      "checkbox": true,
+      "profileUrl": "./src/assets/backbone.png"
+    },
+    {
+      "id": "8b4a",
+      "name": "Rafael Cardoso",
+      "dateOfBirth": "2024-03-12",
+      "tel": "85 9 8157-8362",
+      "role": "Cliente Loja",
+      "radio": "Computador",
+      "obs": "Liga cooler mas não liga a pl mãe e nao esquenta o processador",
+      "checkbox": true,
+      "profileUrl": "./src/assets/backbone.png"
+    },
+    {
+      "id": "c60c",
+      "name": "Saulo Snorlax",
+      "dateOfBirth": "2024-03-12",
+      "tel": "85 9 9183-9636",
+      "role": "Cliente Loja",
+      "radio": "PC Gamer",
+      "mark": "GTX 1660 Super",
+      "checkbox": true,
+      "obs": "Montagem, venda de Gabinete e Fonte R$250",
+      "profileUrl": "./src/assets/backbone.png"
     }
   ]
 }

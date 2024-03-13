@@ -2,12 +2,13 @@ export interface DevApiModel {
     id?: string;
     profileUrl?: string;
     name: string;
-    dateOfBirth: Date;
+    dateOfBirth: string;
     role: string;
     checkbox: boolean;
     radio: string;
-    tel: number;
+    tel: string;
     obs: string;
+    mark: string;
 }
 
 export interface PetResult {

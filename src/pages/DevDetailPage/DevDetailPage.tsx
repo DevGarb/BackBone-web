@@ -7,12 +7,13 @@ import { ROUTES } from "../../routes";
 
 type FormValues = {
   name: string;
-  dateOfBirth: Date;
+  dateOfBirth: string;
   role: string;
   checkbox: boolean;
   radio: string;
-  tel: number;
+  tel: string;
   obs: string;
+  mark: string;
 };
 
 export const DevDetailPage: React.FC = () => {
@@ -30,6 +31,14 @@ export const DevDetailPage: React.FC = () => {
     })
   };
 
+  const obterDataFormatada = () => {
+    const data = new Date();
+    const dia = String(data.getDate()).padStart(2, '0');
+    const mes = String(data.getMonth() + 1).padStart(2, '0');
+    const ano = data.getFullYear();
+    return `${dia}/${mes}/${ano}`;
+  };
+
   return (
     <form onSubmit={handleSubmit(onSubmit)} className={styles.formContainer}>
       {/* Text Field */}
@@ -42,7 +51,11 @@ export const DevDetailPage: React.FC = () => {
 
       {/* Date Field */}
       <div className={styles.inputField}>
-        <input type="date" {...register("dateOfBirth", { required: true })} />
+        <input
+          type="date"
+          {...register("dateOfBirth", { required: true })}
+          defaultValue={obterDataFormatada()} // Definindo o valor padrão com a data formatada
+        />
         {errors.dateOfBirth && (
           <span className={styles.errorMsg}>This field is required</span>
         )}
@@ -90,7 +103,7 @@ export const DevDetailPage: React.FC = () => {
         </label>
         {/* Observações */}
         <div className={styles.inputField}>
-          <input type="text" placeholder="Nome ou Modelo" {...register("obs")} />
+          <input type="text" placeholder="Nome ou Modelo" {...register("mark")} />
         </div>
       </div>
       {errors.radio && (
