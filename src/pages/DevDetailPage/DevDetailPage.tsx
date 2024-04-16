@@ -14,6 +14,7 @@ type FormValues = {
   tel: string;
   obs: string;
   mark: string;
+  price: string;
 };
 
 export const DevDetailPage: React.FC = () => {
@@ -48,13 +49,20 @@ export const DevDetailPage: React.FC = () => {
           <span className={styles.errorMsg}>This field is required</span>
         )}
       </div>
+      {/* Price Field */}
+      <div className={styles.inputField}>
+        <input {...register("price", { required: true })} placeholder="Price" />
+        {errors.price && (
+          <span className={styles.errorMsg}>This field is required</span>
+        )}
+      </div>
 
       {/* Date Field */}
       <div className={styles.inputField}>
         <input
           type="date"
           {...register("dateOfBirth", { required: true })}
-          defaultValue={obterDataFormatada()} // Definindo o valor padrão com a data formatada
+          defaultValue={obterDataFormatada()}
         />
         {errors.dateOfBirth && (
           <span className={styles.errorMsg}>This field is required</span>
@@ -126,7 +134,7 @@ export const DevDetailPage: React.FC = () => {
 
       {/* Submit Button */}
       <div className={styles.submitButton}>
-        <button type="submit">Submit</button>
+        <button type="submit">Cadastrar</button>
       </div>
     </form>
   );

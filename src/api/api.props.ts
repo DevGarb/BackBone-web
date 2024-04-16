@@ -9,6 +9,7 @@ export interface DevApiModel {
     tel: string;
     obs: string;
     mark: string;
+    price: string;
 }
 
 export interface PetResult {

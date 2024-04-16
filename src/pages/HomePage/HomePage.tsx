@@ -29,22 +29,32 @@ export const HomePage = () => {
       </div>
       {/* {theme} */}
       {/* <button onClick={() => toggleTheme()}>Trocar tema</button> */}
-      <CardList>
-        {filteredList.map((dev, index) => (
-          <Card
-            key={index}
-            imageUrl={dev.profileUrl}
-            title={dev.name}
-            subtitle={dev.role}
-            radio={dev.radio}
-            checkbox={dev.checkbox}
-            dateOfBirth={dev.dateOfBirth}
-            tel={dev.tel}
-            obs={dev.obs}
-            mark={dev.mark}
-          />
-        ))}
-      </CardList>
+
+
+
+      <div className={style.cards}>
+        <div className={style.menu}>
+          Menu
+        </div>
+        <CardList>
+          {filteredList.map((dev, index) => (
+            <Card
+              key={index}
+              imageUrl={dev.profileUrl}
+              title={dev.name}
+              subtitle={dev.role}
+              radio={dev.radio}
+              checkbox={dev.checkbox}
+              dateOfBirth={dev.dateOfBirth}
+              tel={dev.tel}
+              obs={dev.obs}
+              mark={dev.mark}
+              price={dev.price}
+            />
+          ))}
+        </CardList>
+      </div>
+
     </div>
   );
 };

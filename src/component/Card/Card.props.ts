@@ -8,4 +8,5 @@ export interface CardProps {
   tel: string;
   obs: string;
   mark: string;
+  price: string;
 }

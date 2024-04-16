@@ -16,3 +16,15 @@
   border: 1px solid #0000008c;
   border-radius: 8px;
 }
+
+.menu {
+  height: 460px;
+  width: 260px;
+  background-color: bisque;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  column-gap: 36px;
+}
